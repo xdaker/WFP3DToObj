@@ -1,0 +1,35 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.29665513)
+
+newmtl buxiugang_jia
+kd 0.196078 0.196078 0.196078
+ka 0 0 0
+ks 0.537255 0.537255 0.537255
+ke 0 0 0
+Ns 30
+illum 2
+
+newmtl lazu_jia
+kd 0.964706 0.886275 0.784314
+ka 0 0 0
+ks 0.176471 0.176471 0.176471
+ke 0 0 0
+Ns 20
+illum 2
+
+newmtl buliao_jia
+kd 1 1 1
+ka 0 0 0
+ks 0 0 0
+ke 0 0 0
+Ns 16
+illum 2
+
+newmtl heitie_jia
+kd 0.0470588 0.0470588 0.0470588
+ka 0 0 0
+ks 0.447059 0.447059 0.447059
+ke 0 0 0
+Ns 30
+illum 2
+
