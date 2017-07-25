@@ -66,7 +66,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Ab3d.DXEngine\bin\net40\Ab3d.DXEngine.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Ab3d.PowerToys, Version=7.6.6025.1040, Culture=neutral, PublicKeyToken=d45c8e156fba2841, processorArchitecture=MSIL" />
+    <Reference Include="Ab3d.PowerToys, Version=7.5.5960.1040, Culture=neutral, PublicKeyToken=d45c8e156fba2841, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Ab3d.PowerToys\bin\net40\Ab3d.PowerToys.dll</HintPath>
+    </Reference>
     <Reference Include="Ab3d.PowerToys.Assimp">
       <HintPath>C:\Program Files\Ab3d.PowerToys\bin\Assimp\Ab3d.PowerToys.Assimp.dll</HintPath>
     </Reference>

@@ -65,26 +65,26 @@ namespace Wpf3DToObj
         private Model3DGroup wpf3DModel;
         private void ExportCilck(object sender, RoutedEventArgs e)
         {
-            if (wpf3DModel != null)
-            {
-                AssimpWpfExporter assimp = new AssimpWpfExporter();
-                assimp.AddViewport3D(MainViewport);
-                AssimpWpfImporter importer = new AssimpWpfImporter();
-                foreach (var chi in wpf3DModel.Children)
-                {
-                    if (chi is GeometryModel3D)
-                    {
-                        importer.DefaultMaterial =
-                            (chi as GeometryModel3D).Material;
-                    }
-                }
-                assimp.Export("./obj/aa.obj",
-                    AssimpWpfExporter.AssimpExportType.Obj);
-            }
-            else
-            {
-                Console.WriteLine("null");
-            }
+            //if (wpf3DModel != null)
+            //{
+            //    AssimpWpfExporter assimp = new AssimpWpfExporter();
+            //    assimp.AddViewport3D(MainViewport);
+            //    AssimpWpfImporter importer = new AssimpWpfImporter();
+            //    foreach (var chi in wpf3DModel.Children)
+            //    {
+            //        if (chi is GeometryModel3D)
+            //        {
+            //            importer.DefaultMaterial =
+            //                (chi as GeometryModel3D).Material;
+            //        }
+            //    }
+            //    assimp.Export("./obj/aa.obj",
+            //        AssimpWpfExporter.AssimpExportType.Obj);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("null");
+            //}
 
         }
 
